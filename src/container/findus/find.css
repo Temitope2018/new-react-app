@@ -1,0 +1,128 @@
+.find-container{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:650px){
+    .find-container{
+        display: block;
+    }
+}
+
+
+.find-sectionA{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@media (max-width:650px){
+    .find-sectionA{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.find-text{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    opacity: .8;
+}
+.find-line{
+    width: 35px;
+    height: 2px;
+    background: var(--color-golden);
+    border-radius: 20px;
+    margin-top: .2em;
+    opacity: .8;
+}
+.find-us{
+    font-size: 1.7rem;
+    font-family: var(--font-base);
+    font-weight: normal;
+}
+.find-lane{
+    font-size: .67rem;
+    font-family: var(--font-alt);
+    letter-spacing: 1px;
+    font-weight: normal;
+    opacity: .8;
+}
+@media (min-width:650px) and (max-width:1050px){
+    .find-lane{
+       font-size: .75rem;
+    }
+}
+
+.find-hour{
+    margin-top: 1em;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: var(--font-alt);
+}
+@media (min-width:650px) and (max-width:1050px){
+    .find-hour{
+       font-size: 1.2rem;
+    }
+}
+.find-date{
+    font-size: .7rem;
+    letter-spacing: 1px;
+}
+@media (min-width:650px) and (max-width:1050px){
+    .find-date{
+       font-size: .8rem;
+    }
+}
+.find-sectionB button{
+    padding: .7em 1.7em;
+    margin-top: 2em;
+    background: var(--color-golden);
+    border: none;
+    font-size: .7rem;
+    font-family: var(--font-alt);
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (min-width:650px) and (max-width:1050px){
+    .find-sectionB button{
+       font-size: .85rem;
+    }
+}
+@media (max-width:650px){
+    .find-sectionB{
+        text-align: center;
+    }
+}
+.find-sectionC{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.find-sectionC img{
+    width: 250px;
+    height: 250px;
+    margin-right: 15em;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid var(--color-golden);
+}
+@media (max-width:650px){
+    .find-sectionC img{
+        margin: 3em auto;
+    }
+}
+@media (min-width:650px) and (max-width:1050px){
+    .find-sectionC img{
+        margin: 0;
+        position: relative;
+        left: 10px;
+        
+        }
+        
+}

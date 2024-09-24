@@ -1,0 +1,119 @@
+.about-container{
+    position: relative;
+    background: #000000ea;
+}
+.about-sectionA{
+    position: absolute;
+    inset: 0;
+}
+.about-image1{
+    width: 800px;
+    height: 435px;
+    z-index: 1;
+    opacity: .1;
+    }
+@media (max-width:650px){
+    .about-image1{
+        width: 100%;
+    }
+}
+    
+.about-sectionB{
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:650px){
+    .about-sectionB{
+        display: block;
+    }
+
+}
+.about-sectionB1 h1,.about-sectionB11 h1{
+    font-size: 1.5rem;
+    position: relative;
+    top: 10px;
+}
+@media (max-width:650px){
+    .about-sectionB1 h1,.about-sectionB11 h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+.about-line{
+    width: 80px;
+    height: 2px;
+    background-color: var(--color-golden);
+    border-radius: 10px;
+    margin-bottom: .3em;
+}
+@media (max-width:650px){
+    .about-line{
+        display: flex;
+        margin: auto;
+    }
+}
+.about-sectionB1 p,.about-sectionB11 p{
+    font-size: .7rem;
+    line-height: 25px;
+    opacity: .8;
+    width: 80%;
+    margin-top: .8em;
+}
+@media (max-width:650px){
+    .about-sectionB1 p,.about-sectionB11 p{
+        font-size: .8rem;
+        width: 100%;
+        text-align: center;
+    } 
+}
+@media (max-width:850px){
+    .about-sectionB1 p,.about-sectionB11 p{
+        font-size: .8rem;
+    } 
+}
+.about-sectionB1 button,.about-sectionB11 button{
+    border: none;
+    padding: .5em 1em;
+    font-family: var(--font-base);
+    font-weight: 500;
+    color: #000000e8;
+    border-radius: 2px;
+    font-size: .7rem;
+    background-color: var(--color-white);
+    margin-top: 1em;
+    cursor: pointer;
+}
+@media (max-width:650px){
+    .about-sectionB1 button,.about-sectionB11 button{
+        display: flex;
+        margin: 3em auto ;
+        
+    } 
+}
+@media (max-width:850px){
+    .about-sectionB1 button,.about-sectionB11 button{
+        font-size: .9rem;
+    } 
+}
+.about-sectionB11{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+@media (max-width:650px){
+    .about-sectionB11{
+        display: block;
+    }
+}
+.about-sectionB2 img{
+    outline: 1px solid var(--color-golden);
+    
+}
+@media (max-width:650px){
+    .about-sectionB2 img{
+        width: 90%;
+    }
+}
